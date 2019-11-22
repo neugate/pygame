@@ -30,7 +30,7 @@ def main():
         SURFACE.fill((255,255,255))
         SURFACE.blit(message, message_rect)
         pygame.display.update()
-        FPSCLOCK.tick(100)
+        FPSCLOCK.tick(1000)
 
 if __name__ == "__main__":
     main()
